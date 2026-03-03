@@ -1,15 +1,18 @@
 # Reto_semana_1
 Calculadora de Sumas
-
 Descripción
 
-Este proyecto consiste en el desarrollo de un programa en Python que convierte un texto ingresado en un número(s) entero y suma todos los resultados. En caso de que el valor no pueda convertirse, el programa devuelve 0.
+En este reto desarrollé un programa en Python que procesa varias líneas de entrada y calcula la suma de los números que contiene cada una.
 
-Desarrollo
+Funcionamiento
 
-El programa fue elaborado utilizando conversión de tipos de datos y manejo de excepciones para evitar que el sistema se detenga ante entradas inválidas. Primero se intenta convertir el texto a un valor numérico decimal y despues se transforma en un número entero, eliminando la parte decimal truncandolo.
+El programa recibe los datos desde la entrada estándar, separa los valores por comas y limpia cada elemento para conservar únicamente caracteres numéricos válidos. Después intenta convertir cada valor a número entero de forma segura, evitando que el programa se detenga si encuentra datos incorrectos.
 
-Para garantizar el correcto funcionamiento, se implementó control de errores. Finalmente, el proyecto fue gestionado mediante múltiples commits en Git, documentando cada etapa del proceso y subiéndolo a GitHub.
+Finalmente, muestra la suma correspondiente a cada línea procesada.
+
+Objetivo
+
+Con este ejercicio practiqué el manejo de cadenas, la conversión de tipos de datos, el control de errores, manejo de  github y el procesamiento de entradas en Python.
 
 Autor
 
