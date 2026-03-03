@@ -1,9 +1,9 @@
 # Reto_semana_1
-Conversión de Texto a Número
+Calculadora de Sumas
 
 Descripción
 
-Este proyecto consiste en el desarrollo de un programa en Python que convierte un texto ingresado en un número entero y suma todos los resultados. En caso de que el valor no pueda convertirse, el programa devuelve 0.
+Este proyecto consiste en el desarrollo de un programa en Python que convierte un texto ingresado en un número(s) entero y suma todos los resultados. En caso de que el valor no pueda convertirse, el programa devuelve 0.
 
 Desarrollo
 
