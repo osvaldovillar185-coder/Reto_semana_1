@@ -11,6 +11,7 @@ def clean_value(value):
             result +=char
     return result
 
+
 def convert_int (texto):
     ##Si esta vacio entonces devuelve 0
     if texto == "":
@@ -21,25 +22,3 @@ def convert_int (texto):
         return int(number)
     except ValueError:
         return 0
-    
-##Procesar lineas y hacer la suma de los elementos
-def process_line(line):
-    line= line.strip()
-    if not line:
-        return 0
-    values = line.split(",")
-    suma=0
-    for value in values :
-        clean=clean_value(value)
-        number = convert_int(clean)
-        suma = suma+number
-    return suma
-
-def main():
-    for line in sys.stdin:
-        result = process_line(line)
-        print(result)
-
-
-if __name__ == "__main__":
-    main()
